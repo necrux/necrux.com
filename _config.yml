@@ -1,8 +1,8 @@
 # site settings
 
-title: cvless
-description: Jekyll theme for a beautiful online CV
-taglong: Jekyll theme for a beautiful online CV
+title: necrux
+description: necrux.com - A Tech Blog by Wes Henderson
+taglong: Print until it makes sense!
 tagshort: Jekyll theme
 url: https://cvless.netlify.app
 baseurl: ""
@@ -12,8 +12,8 @@ repo: https://github.com/username/username.github.io
 # author settings
 
 author:
-  name: Place Holder
-  email: username@domain.com
+  name: Wes Henderson
+  email: info@necrux.com
 photo: /assets/photo.jpg
 
 # build settings

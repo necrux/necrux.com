@@ -5,14 +5,22 @@ title: Home
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+My name is Wes, I am a proud father, avid traveler, and 3D printer enthusiast. I also do Linuxy stuff for work as a lead systems engineer at Salesforce; basically I am a professional problem solver.
 
-This is the home page. It can be used for a short introduction. [Click here](/cv) to see the full CV, and [here](/cv.pdf) to download a print version. The theme also ships with a blog: [click here](/posts) to scroll posts from the most recent. Finally, [click here](/404) to see a page that can't be found.
+I started this blog years ago while I was a novice Linux administrator at Rackspace. A couple of my posts still get a lot of traffic, but for the most part the site has been abandoned. I recently moved the blog from a self-hosted Wordpress installation to Jekyll and hope to start blogging again!
 
-By default, the theme only contains these few pages in order to stay lean and flexible. However, it can be easily extended to accommodate more pages, [collections](https://jekyllrb.com/docs/collections/), [categories, and tags](https://jekyllrb.com/docs/posts/#tags-and-categories).
+What can we expect from this site?
+======
+I am certainly no longer a novice but the world of Linux and open source is so expansive and ever-changing that it requires constant learning. I personally try to keep a beginner's mindset, ask a lot of questions, and fully explore topics that interest me. Over the last 9 years my life has changed immensely, but I am still very passionate about my work and eager to grow and share my knowledge.
 
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This site is intended to be a notebook of sorts where I can document things I find interesting. I also plan to discuss issues that I find are common conversation topics with other techs. In this way the site will serve as a conversation aid as well as a quick reference after the fact.
 
-Below is a list of blog posts included for illustrative purposes. Make sure to delete or modify them before deploying your website.
+"While we teach, we learn"[^1] is a powerful truth. With that in mind, it can be said that this site is intended to further my own knowledge first and foremeost, but I truely hope that other people will find the site helpful too!
+
+What’s with the website name?
+======
+Necrux (nec·rux) is a portmanteau of “necromancer” and “Tux.” I believe that the idea of a penguin bringing Linux servers back from the dead perfectly embodies what it means to be a Linux administrator.
+
+[^1]: Seneca, a Roman philosopher
 
 {% include archive.html %}
