@@ -3,11 +3,11 @@
 title: necrux
 description: necrux.com - A Tech Blog by Wes Henderson
 taglong: Print until it makes sense!
-tagshort: Jekyll theme
-url: https://cvless.netlify.app
+tagshort: "- Blog"
+url: https://necrux.com
 baseurl: ""
 permalink: pretty
-repo: https://github.com/username/username.github.io
+repo: https://github.com/necrux/necrux.com
 
 # author settings
 
