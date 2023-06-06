@@ -38,3 +38,10 @@ pagination:
   sort_reverse: true
   permalink: /:num/
   title: ":title &middot; Page :num"
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
