@@ -29,16 +29,6 @@ sass:
 feed:
   path: atom.xml
 
-autopages:
-  enabled: false
-
-pagination:
-  enabled: true
-  per_page: 1
-  sort_reverse: true
-  permalink: /:num/
-  title: ":title &middot; Page :num"
-
 # Plugins
 plugins:
   - jekyll-feed
@@ -53,3 +43,13 @@ whitelist:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
