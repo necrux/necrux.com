@@ -24,6 +24,6 @@ In order to fulfil my goal, the resume must adhere to the following:
 * Support the [Konami code](https://en.wikipedia.org/wiki/Konami_Code).
   * I honestly have no idea why this is a criteria, it just feels like the right things to do.
 
-### Version 1
+## Version 1
 
 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
