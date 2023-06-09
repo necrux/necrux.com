@@ -1,9 +1,9 @@
 ---
 layout: cv
-title: CV
+title: The CI/CD Resume Project
 ---
 
-# Curriculum Vitæ
+# The CI/CD Resume Project
 
 {% include contact.html %}
 
