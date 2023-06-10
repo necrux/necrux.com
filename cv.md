@@ -26,4 +26,10 @@ In order to fulfil my goal, the resume must adhere to the following:
 
 ## Version 1
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+My initial thought was to write the resume in markdown, leveraging Jekyll and Pandoc to create the web version and PDF version respectively. This *worked*, however the resulting PDF was not very flattering. I know that Pandoc can produce beautiful documentation, but I was simply not prepared to delve down the rabbit hole that is LateX templates.
+
+I was also able to add Konami support fairly easily by leveraging my Google-fu. I simply made the Javascript open up a new webpage with a different CSS file loaded to give the resume a retro vibe.
+
+In hindsight version 1 was very poorly conceived and I would have benefited from better planning, however it did lay the groundwork and got me excited about the project.
+
+## Version 2
