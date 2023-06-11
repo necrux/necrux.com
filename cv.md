@@ -34,6 +34,23 @@ In hindsight version 1 was very poorly conceived and I would have benefited from
 
 ## Version 2
 
-For version 2 I decided to switch to YAML as it offers more flexibility than markdown. This ultimately meant a search for a new templating engine as Jekyll would no longer suffice. As luck would have it I was working on a templating engine for my [main site](https://www.weshenderson.info/) and felt it would serve my purposes nicely.
+For version 2 I decided to switch to YAML as it offers more flexibility than markdown. This ultimately meant a search for a new templating engine as Jekyll would no longer suffice. As luck would have it I was working on a templating engine for my [main site](https://www.weshenderson.info/) and felt it would serve my purposes nicely; this is sort of a bare-bones project that was really just meant to scratch my programming itch as I have been trying to up my Python game. As for the HTML, I found the [srt-resume](https://sampleresumetemplate.net/) template which I quite liked due to its simplicity and professionalism.
 
-As for the HTML, I found the [srt-resume](https://sampleresumetemplate.net/) template which I quite liked due to its simplicity and professionalism.
+I knew that the pipeline would involve Git hooks as that was something I have been meaning to play with, however I was still unsure how to implement the PDF version of the resume. After playing around with Pandoc I realized that all I really needed was for the CSS to render, something which automatically happened when selecting 'Print to PDF' from your browser. After a bit more Google-fu I learned that Chrome has developer tools that enable the 'Print to PDF' function from a headless instance. All I had to do was tap into that and add it as a pre-commit hook!
+
+```
+/usr/bin/google-chrome \
+            --headless \
+            --disable-gpu \
+            --no-pdf-header-footer \
+            --no-margins \
+            --run-all-compositor-stages-before-draw \
+            --print-to-pdf=${PDF} \
+            file://${BASE_PATH}/${TMP}
+```
+
+*Note: Chrome is [changing](https://developer.chrome.com/articles/new-headless/) the way that headless functions, it will no longer be a standalone browser with a separate codebase. This means that in the near future I will need to revise relevant portions of the hook.*
+
+## Version 3
+
+I did not set out with a version 3 in mind, but after showing my friend the project he introduced me to the [json resume](https://jsonresume.org/)! Conceptually this was very similar to my idea, however it was clear that much more thought went into the schema. Converting also meant that I would be able to incorporate their work, namely their registry and ChatGPT integration. Plus I would finally have a great excuse to incorporate GitHub Actions into my pipeline! It would also mean someone using the jsonresume format could potentially use Alea (my templating engine) in their own project!
