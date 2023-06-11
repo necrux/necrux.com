@@ -36,4 +36,4 @@ In hindsight version 1 was very poorly conceived and I would have benefited from
 
 For version 2 I decided to switch to YAML as it offers more flexibility than markdown. This ultimately meant a search for a new templating engine as Jekyll would no longer suffice. As luck would have it I was working on a templating engine for my [main site](https://www.weshenderson.info/) and felt it would serve my purposes nicely.
 
-As for the HTML,I found the [srt-resume](https://sampleresumetemplate.net/) template which I quite liked due to its simplicity and professionalism.
+As for the HTML, I found the [srt-resume](https://sampleresumetemplate.net/) template which I quite liked due to its simplicity and professionalism.
