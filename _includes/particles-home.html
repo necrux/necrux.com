@@ -1,5 +1,27 @@
 <div id="particles-js" class="fullscreen">
+    {% if site.search %}
+    <div class="nowrap">
+      <!-- Html Elements for Search -->
+      <div id="search-container">
+        <input type="text" id="search-input" placeholder="search...">
+           <ul id="results-container"></ul>
+      </div>
+      
+      <!-- Script pointing to search-script.js -->
+      <script src="assets/js/search.js" type="text/javascript"></script>
+      
+      <!-- Configuration -->
+      <script>
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json'
+      })
+      </script>
+    </div>
+    {% endif %}
   <div class="jumbotron text-center">
+
     {% if site.photo %}
     <img class="particles-photo" src="{{ site.photo }}" />
     {% endif %}
