@@ -54,3 +54,7 @@ I knew that the pipeline would involve Git hooks as that was something I have be
 ## Version 3
 
 I did not set out with a version 3 in mind, but after showing my friend the project he introduced me to the [json resume](https://jsonresume.org/)! Conceptually this was very similar to my idea, however it was clear that much more thought went into the schema. Converting also meant that I would be able to incorporate their work, namely their registry and ChatGPT integration. It would also mean someone using the jsonresume format could potentially use my templating engine in their own project!
+
+It turns out that changing the underlying schema is not a fun task, but I still believe that it was worth it. I did end up needing a few additional fields for things like Google Analytics and found a couple of things lacking in their schema, e.g. it does not have an option to set an employer as current. So in the end my schema is a superset of theirs, but functionally will work on both platforms. 
+
+For version 3 I also decided to fix the Konami resume so that it properly toggled the CSS rather than simply loading a new page. This is strictly not necessary, but I am a novice at Javascript and web dev in general, so I wanted to challenge myself with this one. In the end I found a [tutorial](https://www.youtube.com/watch?v=Xk12JtYG8rw&t) by YouTuber Envato Tuts+ that walked me through the process and gave me even more respect for the art of web development!
