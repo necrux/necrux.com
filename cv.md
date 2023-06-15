@@ -57,4 +57,9 @@ I did not set out with a version 3 in mind, but after showing my friend the proj
 
 It turns out that changing the underlying schema is not a fun task, but I still believe that it was worth it. I did end up needing a few additional fields for things like Google Analytics and found a couple of things lacking in their schema, e.g. it does not have an option to set an employer as current. So in the end my schema is a superset of theirs, but functionally will work on both platforms. 
 
+I decided to stick with YAML for the format as I find it easier to work with for something like this; YAML and JSON are easily interchangeable and I simply had to have my templating engine output a JSON version of the resume as well. With the JSON version in hand I made a GitHub action to publish it as a Gist so that the JSON registry could pick up the resume.
+
 For version 3 I also decided to fix the Konami resume so that it properly toggled the CSS rather than simply loading a new page. This is strictly not necessary, but I am a novice at Javascript and web dev in general, so I wanted to challenge myself with this one. In the end I found a [tutorial](https://www.youtube.com/watch?v=Xk12JtYG8rw&t) by YouTuber Envato Tuts+ that walked me through the process and gave me even more respect for the art of web development!
+
+## Conclusion
+
