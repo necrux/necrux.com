@@ -65,7 +65,7 @@ For version 3 I also decided to fix the Konami resume so that it properly toggle
 
 ### Workflow
 
-```mermaid
+```mermaid!
 flowchart LR
     A[Workstation]-->B{{Git Hooks}};
     B-->C((HTML));

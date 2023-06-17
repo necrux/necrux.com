@@ -47,6 +47,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-spaceship
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
@@ -54,3 +55,4 @@ whitelist:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-spaceship
