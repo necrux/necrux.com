@@ -59,7 +59,7 @@ It turns out that changing the underlying schema is not a fun task, but I still 
 
 I decided to stick with YAML for the format as I find it easier to work with for something like this; YAML and JSON are easily interchangeable and I simply had to have my templating engine output a JSON version of the resume as well. With the JSON version in hand I made a GitHub action to publish it as a Gist so that the JSON registry could pick up the resume.
 
-For version 3 I also decided to fix the Konami resume so that it properly toggled the CSS rather than simply loading a new page. This is strictly not necessary, but I am a novice at Javascript and web dev in general, so I wanted to challenge myself with this one. In the end I found a [tutorial](https://www.youtube.com/watch?v=Xk12JtYG8rw&t) by YouTuber Envato Tuts+ that walked me through the process and gave me even more respect for the art of web development!
+For version 3 I also decided to fix the Konami resume so that it properly toggled the CSS rather than loading a new page. This is strictly not necessary, but I am a novice web developer and wanted to challenge myself. In the end I found a [tutorial](https://www.youtube.com/watch?v=Xk12JtYG8rw&t) by YouTuber Envato Tuts+ that walked me through the process and gave me even more respect for the art of web development!
 
 ## Conclusion
 
