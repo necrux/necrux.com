@@ -63,6 +63,10 @@ For version 3 I also decided to fix the Konami resume so that it properly toggle
 
 ## Conclusion
 
+In the end I am happy with my project and I hope that my resume is sufficiently nerdy. My resume does not present as a nerdy one, but if nothing else it can be an interesting conversation piece and I did learn a lot along the way! 
+
+Below is the current workflow for my resume:
+
 ### Workflow
 
 ```mermaid!
