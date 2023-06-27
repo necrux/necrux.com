@@ -61,13 +61,7 @@ I decided to stick with YAML for the format as I find it easier to work with for
 
 For version 3 I also decided to fix the Konami resume so that it properly toggled the CSS rather than loading a new page. This is strictly not necessary, but I am a novice web developer and wanted to challenge myself. In the end I found a [tutorial](https://www.youtube.com/watch?v=Xk12JtYG8rw&t) by YouTuber Envato Tuts+ that walked me through the process and gave me even more respect for the art of web development!
 
-## Conclusion
-
-In the end I am happy with my project and I hope that my resume is sufficiently nerdy. My resume does not present as a nerdy one, but if nothing else it can be an interesting conversation piece and I did learn a lot along the way! 
-
-Below is the current workflow for my resume:
-
-### Workflow
+### Final Workflow
 
 ```mermaid!
 flowchart LR
@@ -96,3 +90,7 @@ flowchart LR
    * [pages-build-deployment](https://github.com/weshenderson/weshenderson.github.io/actions/workflows/pages/pages-build-deployment): Builds and deploys my GitHub Page.
 5. The JSON Resume registry is updated with my [new resume](https://registry.jsonresume.org/necrux).
 6. My [GitHub Page](https://www.weshenderson.info/) is updated with my new content/resume.
+
+## Conclusion
+
+In the end I am happy with my project and I hope that my resume is sufficiently nerdy. My resume does not present as a nerdy one, but if nothing else it can be an interesting conversation piece and I did learn a lot along the way!
