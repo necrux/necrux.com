@@ -25,29 +25,29 @@ In order to fulfill my goal, the résumé system must adhere to the following:
 * Support the [Konami code](https://en.wikipedia.org/wiki/Konami_Code).
     * I honestly have no idea why this is a criteria, but as a nerd it just feels right!
 
-## Technologies
+## Implementation Details
 
-The current iteration of this project can be found [here](https://github.com/weshenderson/weshenderson.github.io/tree/main) along with the architectural diagram, pipeline overview, and any supporting documentation. But at a high level this project uses the following technologies:
+The current iteration of this project can be found [here](https://github.com/weshenderson/weshenderson.github.io/tree/main) along with the architectural diagram, pipeline overview, and supporting documentation. Here is a brief overview of the implementation:
 
 * Git
     * version control
     * hooks
+    * artifact provenance
 * GitHub
     * GitHub Actions
     * GitHub Pages
 * Bash
     * Automation
 * Python
-    * Templates
+    * jinga2 (templates)
+    * python-docx (machine friendly version for ATS imports)
 * Docker
-    * Runtime environment *(PDF generation)*
-* DockerHub
-    * Container registry
+    * Runtime environment (PDF generation)
 * HTML/CSS
-    * Web content
+    * Web presentation
 * Javascript
-    * EventListener *(monitor keystrokes)*
-    * Ternary operator *(monitor state)*
+    * EventListener (monitor keystrokes)
+    * Ternary operator (track state)
 
 ## Résumés should be Nerdy!
 
