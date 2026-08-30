@@ -11,14 +11,17 @@ As an automated focused technologist, this idea led me to a fun realization: a D
 
 ## Requirements
 
-In order to fulfill my goal, the résumé must adhere to the following:
+In order to fulfill my goal, the résumé system must adhere to the following:
 
 * Be well documented!
-* Produce a web friendly résumé.
-* Produce a PDF résumé for distribution.
-* Have a single source of truth.
-    * This means that the content **must be** separate from the format.
-* Have a pipeline to automatically publish the various forms of my resume.
+* Multi-target rendering pipeline:
+    * Produce a web friendly résumé.
+    * Produce a PDF résumé for distribution.
+    * Produce a machine friendly `.docx` version for ATS imports.
+* Automatically validate generated output and detect regressions.
+* Maintain a single source of truth for all résumé content.
+* Separate content, presentation, and processing logic.
+* Automatically publish the various forms of my résumé.
 * Support the [Konami code](https://en.wikipedia.org/wiki/Konami_Code).
     * I honestly have no idea why this is a criteria, but as a nerd it just feels right!
 
