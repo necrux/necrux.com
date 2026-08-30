@@ -22,6 +22,7 @@ In order to fulfill my goal, the résumé system must adhere to the following:
 * Maintain a single source of truth for all résumé content.
 * Separate content, presentation, and processing logic.
 * Automatically publish the various forms of my résumé.
+* The ability to associate a resume release with a particular Build & commit via artifact provenance.
 * Support the [Konami code](https://en.wikipedia.org/wiki/Konami_Code).
     * I honestly have no idea why this is a criteria, but as a nerd it just feels right!
 
@@ -32,7 +33,6 @@ The current iteration of this project can be found [here](https://github.com/wes
 * Git
     * version control
     * hooks
-    * artifact provenance
 * GitHub
     * GitHub Actions
     * GitHub Pages
